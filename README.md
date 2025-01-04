@@ -73,9 +73,9 @@ This project is a **RAG (Retrieval-Augmented Generation)** based smart search sy
 
 ## 📸 Screenshots
 [!img-1](images/img-1.png)
-[!img-2](https://github.com/devroopsaha744/CourseLens/blob/main/images/img-2.png)
-[!img-3](https://github.com/devroopsaha744/CourseLens/blob/main/images/img-3.png)
-[!img-4](https://github.com/devroopsaha744/CourseLens/blob/main/images/img-4.png)
+[!img-2](images/img-2.png)
+[!img-3](images/img-3.png)
+[!img-4](images/img-4.png)
 
 ## 🤖 Future Improvements
 - Integration with additional LLMs.
