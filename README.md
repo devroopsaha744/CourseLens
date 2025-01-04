@@ -1,6 +1,9 @@
-# RAG-Based Smart Search System for Analytics Vidhya Courses
+# CourseLens
 
 This project is a **RAG (Retrieval-Augmented Generation)** based smart search system designed to assist users in finding and querying information related to the free courses available on **Analytics Vidhya**. The system provides relevant course recommendations and answers user queries based on natural language inputs.
+
+## Approach
+<My approach >  
 
 ## 🌟 Key Features
 - **AI-Powered Search**: Utilizes a combination of semantic search and generative AI to deliver precise results.
@@ -12,16 +15,18 @@ This project is a **RAG (Retrieval-Augmented Generation)** based smart search sy
 
 ## 📊 Tech Stack
 - **Python**: Core programming language
-- **BeautifulSoup4 & Requests**: Web scraping
-- **Streamlit**: Web app framework
-- **Llama 3.3 70B by Groq**: Large language model
-- **Pinecone**: Vector database for storing embeddings
-- **LangChain**: For integrating RAG components
+- **BeautifulSoup4** & Requests: Web scraping tools
+- **Streamlit**: Framework for building web applications
+- **Llama** 3.3 70B by Groq: Large language model for advanced NLP tasks
+- **BGE-base-en-v1.5:** Embedding model used to handle long texts for semantic search and embedding generation
+- **Pincone**: Vector database for storing and managing embeddings
+- **LangChain**: Library for integrating RAG components
+
 
 ## 📈 Workflow
 1. **Data Collection**:
-   - Scraped course content from Analytics Vidhya using `BeautifulSoup4` and `requests`.
    - Stored all course links in a text file for batch processing.
+   - Scraped course content from Analytics Vidhya using `BeautifulSoup4` and `requests`.
 2. **Data Cleaning**:
    - Removed redundant content (e.g., common descriptions across all courses).
    - Split the content into smaller chunks suitable for the model's context window.
