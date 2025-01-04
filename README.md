@@ -3,7 +3,36 @@
 This project is a **RAG (Retrieval-Augmented Generation)** based smart search system designed to assist users in finding and querying information related to the free courses available on **Analytics Vidhya**. The system provides relevant course recommendations and answers user queries based on natural language inputs.
 
 ## Approach
-<My approach >  
+![workflow](images/workflow.jpg)
+
+This system implements a sophisticated RAG-based smart search architecture to help users discover relevant free courses from Analytics Vidhya website through natural language queries. Here's how the workflow operates:
+
+**Data Collection and Preprocessing:**
+- The system begins by scraping course information and webpage content from Analytics Vidhya's website
+- The scraped text content is cleaned and structured for further processing
+
+**Vector Processing:**
+- An embedding model converts the processed text content into high-dimensional vectors
+- These vectors capture the semantic meaning of the course content
+- The vectorized content is stored in a vector database (vectorstore) for efficient retrieval
+
+**Query Processing:**
+- When a user submits a request using natural language queries or keywords
+- The same embedding model converts these queries into vectors for comparison
+- The system performs vector-based similarity search to find relevant matches in the vectorstore
+
+**Content Retrieval and Generation:**
+- The vector similarity search identifies the most relevant course content
+- This relevant context is passed to a Large Language Model (LLM)
+- The LLM processes the retrieved context along with the user's query
+- It generates personalized responses and course recommendations
+
+**Output**:
+- The system provides detailed responses about relevant free courses
+- Includes specific course recommendations tailored to the user's interests
+- Offers context-aware suggestions based on the query's intent
+
+The key advantage of this RAG architecture is that it combines the power of semantic search through vector embeddings with the natural language understanding capabilities of LLMs, resulting in more accurate and contextually relevant course recommendations for users interested in Analytics Vidhya's free educational content.
 
 ## 🌟 Key Features
 - **AI-Powered Search**: Utilizes a combination of semantic search and generative AI to deliver precise results.
