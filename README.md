@@ -2,7 +2,7 @@
 
 This project is a **RAG (Retrieval-Augmented Generation)** based smart search system designed to assist users in finding and querying information related to the free courses available on **Analytics Vidhya**. The system provides relevant course recommendations and answers user queries based on natural language inputs.
 
-## Approach
+## 🧭 Approach
 ![workflow](images/workflow.jpg)
 
 This system implements a sophisticated RAG-based smart search architecture to help users discover relevant free courses from Analytics Vidhya website through natural language queries. Here's how the workflow operates:
