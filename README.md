@@ -72,10 +72,10 @@ This project is a **RAG (Retrieval-Augmented Generation)** based smart search sy
 [Deployed Link](https://huggingface.co/spaces/datafreak/CoureLens)
 
 ## 📸 Screenshots
-[!img-1](images/img-1.png)
-[!img-2](images/img-2.png)
-[!img-3](images/img-3.png)
-[!img-4](images/img-4.png)
+![img-1](images/img-1.png)
+![img-2](images/img-2.png)
+![img-3](images/img-3.png)
+![img-4](images/img-4.png)
 
 ## 🤖 Future Improvements
 - Integration with additional LLMs.
