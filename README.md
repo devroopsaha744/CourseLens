@@ -70,10 +70,18 @@ The key advantage of this RAG architecture is that it combines the power of sema
 ## 📦 Project Structure
 ```plaintext
 📂 CourseLens
+├── 📂images
+│    └── img-1.png
+│    └── img-2.png
+│    └── img-3.png
+│    └── img-4.png
+│    └── workflow.png
 ├── 📂 data
-│   └── courses.csv
+│   └── av-free-course-data.txt
+│   └── extracted_content.csv
 ├── 📂 scraping
-│   └── scraper.py
+│   └── collect_links.py
+│   └── scrape.py
 |──indexing.py
 ├── app.py
 ├── query.py
