@@ -102,7 +102,7 @@ The key advantage of this RAG architecture is that it combines the power of sema
    ```
 3. **Run the Streamlit App:**
    ```bash
-   streamlit run webapp/app.py
+   streamlit run app.py
    ```
 ### **Benchmarking Table for CourseLens**  
 
