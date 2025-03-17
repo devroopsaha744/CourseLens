@@ -104,13 +104,6 @@ The key advantage of this RAG architecture is that it combines the power of sema
    ```bash
    streamlit run app.py
    ```
-### **Benchmarking Table for CourseLens**  
-
-| **Metric**                | **Initial Configuration**                                             | **Final Configuration**                                             | **Improvement**                |  
-|---------------------------|-----------------------------------------------------------------------|----------------------------------------------------------------------|-------------------------------|  
-| **Query Latency**         | ~600 ms (Gemini 1.5 Pro, Qdrant & all-MiniLM-L6-v2)                        | ~300 ms (Groq Llama 3, Pinecone, BGE embeddings)                       | 50% reduction                 |  
-| **Search Efficiency**     | ~65% precision, ~50% recall                                          | ~80% precision, ~66–67% recall                                       | ~35% overall improvement      |  
-| **Throughput**            | Lower queries/sec due to higher latency and sequential processing     | ~45% more queries/sec enabled by lower latency and parallel execution  | 45% increase                  |
 
 ## 🚀 Deployed Version
 [Deployed Link](https://huggingface.co/spaces/datafreak/CoureLens)
